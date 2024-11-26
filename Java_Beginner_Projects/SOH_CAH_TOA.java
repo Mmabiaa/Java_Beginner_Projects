@@ -55,7 +55,7 @@ public class SOH_CAH_TOA {
 
 			System.out.println("Enter the opposite side: ");
 			double opp = scanner.nextInt();
-			System.out.println("Enter the Hypotanus: ");
+			System.out.println("Enter the hypotenuse: ");
 			double hyp = scanner.nextInt();
 			System.out.println("------------------------------------------------------------------------");
 
@@ -69,17 +69,17 @@ public class SOH_CAH_TOA {
 			System.out.println("------------------------------------------------------------------------");
 			System.out.println("Enter the Adjacent side: ");
 			double adj = scanner.nextInt();
-			System.out.println("Enter the Hypotanus: ");
+			System.out.println("Enter the Hypotenuse: ");
 			double hyp = scanner.nextInt();
 			System.out.println("------------------------------------------------------------------------");
 
 			double opp = Math.sqrt((hyp*hyp)+(adj*adj));
-			System.out.println("Adjacent = " + Math.round(opp));
+			System.out.println("Opposite = " + Math.round(opp));
 			System.out.println("------------------------------------------------------------------------");
 		}
 
 		else{
-			System.out.println("Finding the Hypotanus Side");
+			System.out.println("Finding the Hypotenuse Side");
 			System.out.println("------------------------------------------------------------------------");
 			System.out.println("Enter the opposite side: ");
 			double opp = scanner.nextInt();
@@ -87,7 +87,7 @@ public class SOH_CAH_TOA {
 			double adj = scanner.nextInt();
 			System.out.println("------------------------------------------------------------------------");
 			double hyp = Math.sqrt((adj*adj)+(opp*opp));
-			System.out.println("Adjacent = " + Math.round(hyp));
+			System.out.println("Hypotenuse = " + Math.round(hyp));
 			System.out.println("------------------------------------------------------------------------");
 		}
 
@@ -102,10 +102,11 @@ public class SOH_CAH_TOA {
 			System.out.println("------------------------------------------------------------------------");
 		}
 		else{
-			System.out.println("1. Adjacent 2. Opposite 3. Hypotanus");
+			System.out.println("1. Adjacent 2. Opposite 3. Hypotenuse");
 			System.out.println("------------------------------------------------------------------------");
+   get_side();
 		}
-		get_side();
+		
 
 	}
 
