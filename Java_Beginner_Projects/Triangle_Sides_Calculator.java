@@ -2,7 +2,7 @@
 import java.util.Scanner;
 
 // Class or Blu print of the program.
-public class SOH_CAH_TOA {
+public class Triangle_Sides_Calculator {
 
     Scanner scanner = new Scanner(System.in); // Scanner to help accept user input.
 
@@ -115,7 +115,7 @@ public class SOH_CAH_TOA {
 
 
     public  void main(String[] args){ // main method
-		SOH_CAH_TOA obj = new SOH_CAH_TOA(); // Creating an object for the class
+		Triangle_Sides_Calculator obj = new Triangle_Sides_Calculator(); // Creating an object for the class
 		obj.menu(); // Calling the menu method to run the program.
     }
 }
