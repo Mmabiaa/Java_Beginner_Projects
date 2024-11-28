@@ -1,6 +1,6 @@
 import javax.swing.JOptionPane;
 //A dialog calculator program.
-public class Cal {
+public class Bankin_System {
     int input; // Class variable
     double x, y, z; // Class variable
 
@@ -54,7 +54,7 @@ public class Cal {
         
         do{//A do-while loop for program reusability.
 
-        Cal h = new Cal();//An object for the class.
+        Banking_System h = new Banking_System();//An object for the class.
         h.Menu();//Calling te menu Menu.
         //A list of conditions to validate user inputs for menu options.
         if (h.input==1){
