@@ -33,11 +33,12 @@ Make sure you have the following installed:
 
 Here are the beginner projects included in this repository:
 
-1. **Simple Calculator** - A console application that performs basic arithmetic operations like addition, subtraction, multiplication, and division.
-2. **Currency Converter** - Converts amounts between different currencies based on user-defined exchange rates.
-3. **Number Guessing Game** - A fun game where the user guesses a randomly generated number within a specified range.
-4. **To-Do List** - A simple console-based application to manage tasks and keep track of your to-do items.
-5. **Rock-Paper-Scissors Game** - A classic game where the user plays against the computer.
+1. **Banking System** - A simple console application that simulates basic banking operations such as account creation, deposits, withdrawals, and balance inquiries.
+2. **Calculator** - A console application that performs basic arithmetic operations like addition, subtraction, multiplication, and division.
+3. **Bug Tracking System** - A basic application for tracking bugs with functionalities to add, view, and update bug reports.
+4. **Currency Converter** - Converts amounts between different currencies based on user-defined exchange rates.
+5. **Triangle Sides Calculator** - Calculates the length of the sides of a triangle based on user input using the Pythagorean theorem.
+6. **FizzBuzz** - A classic programming challenge that prints numbers from 1 to 100, but for multiples of three prints "Fizz" instead of the number and for multiples of five prints "Buzz." For numbers which are multiples of both three and five, it prints "FizzBuzz."
 
 Feel free to explore each project’s directory for additional details and comments.
 
