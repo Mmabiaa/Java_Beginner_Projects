@@ -1,3 +1,4 @@
+
 # Java Beginner Projects
 
 Welcome to the Java Beginner Projects repository! This collection features simple Java applications designed for beginners to help you learn and practice fundamental programming concepts. These projects cover a variety of topics and are perfect for anyone looking to enhance their Java skills.
