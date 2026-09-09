@@ -42,6 +42,7 @@ Here are the beginner projects included in this repository:
 
 Feel free to explore each project’s directory for additional details and comments.
 
+
 ## How to Run the Projects
 
 1. Clone this repository to your local machine:
